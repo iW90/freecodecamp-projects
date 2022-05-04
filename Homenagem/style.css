@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #000;
+    --cor2: #fff;
+    --cor3: #bbb;
+    --cor4: #222;
+}
+
+body {
+    background: var(--cor1);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor1);
+}
+
+/* HEADER CONFIGURATION */
+header {
+    width: 1000px;
+    margin: 20px auto 0 auto;
+    background: var(--cor3);
+    text-align: center;
+    padding: 100px 50px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 16px;
+    margin: 0;
+    font-style: italic;
+}
+
+/* MAIN CONFIGURATION */
+main {
+    background: var(--cor2);
+    width: 1100px;
+
+    margin: 0 auto;
+}
+
+#img-div {
+    text-align: center;
+    margin: 0 50px 80px 50px;
+    padding-top: 80px;
+}
+
+#image {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+#img-caption {
+    font-style: italic;
+    font-size: 12px;
+}
+
+#tribute-info {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 80px 80px 0 80px;
+    width: 100%;
+    background: var(--cor3);
+}
+
+#tribute-info h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#tribute-info ul {
+    line-height: 40px;
+}
+
+#tribute-info span {
+    font-weight: bolder;
+}
+
+.extra {
+    text-align: center;
+    padding: 80px;
+    margin: 0;
+}
+
+/* FOOTER CONFIGURATION */
+footer {
+    background: var(--cor4);
+    color: var(--cor2);
+    width: 1000px;
+    padding: 10px 50px;
+    margin: 0 auto;
+    text-align: center;
+}

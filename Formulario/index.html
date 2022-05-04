@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">
+            Space IO
+        </h1>
+        <p id="description">
+            Agradecemos por se inscrever na nossa plataforma!
+        </p>
+    </header>
+
+    <main>
+
+    <form action="#" id="survey-form">
+
+       
+        <label id="name-label" for="name" required>
+            <legend> Nome </legend>
+            <input id="name" type="text" placeholder="Nome">
+        </label>
+      
+
+        <label id="email-label" for="email" required>
+            <legend> E-Mail </legend>
+            <input id="email" type="email" placeholder="E-mail">
+        </label>
+        
+
+        <label id="number-label" for="number">
+            <legend> Idade </legend>
+            <input id="number" type="number" placeholder="Idade" min="1" max="3">
+        </label>
+        
+
+        <label for="dropdown">
+            <legend> Gênero </legend>
+            <select id="dropdown" name="" required>
+                <option value=""></option>
+                <option value="homem">Masculino</option>
+                <option value="mulher">Feminino</option>
+                <option value="nbi">Não Binário</option>
+                <option value="outro">Outro</option>
+            </select>
+        </label>
+        
+
+        <fieldset for="modelo">
+            <legend> Modelo de Estrela </legend> 
+            <label for="modelo" id="modelo">
+                <input type="radio" name="nome" value="branca"> Anã Branca
+            </label>
+            <label for="modelo" id="modelo"><input type="radio" name="nome" value="marrom"> Anã Marrom</label>
+            <label for="modelo" id="modelo"><input type="radio" name="nome" value="vermelha"> Gigante Vermelha</label>
+            <label for="modelo" id="modelo"><input type="radio" name="nome" value="azul"> Supergigante Azul</label>
+            <label for="modelo" id="modelo"><input type="radio" name="nome" value="neutron"> Estrela de Nêutrons</label>
+            <label for="modelo" id="modelo"><input type="radio" name="nome" value="variavel"> Estrela Variável</label>
+        </fieldset>
+        
+
+        <fieldset for="termos">
+            <legend> Termos </legend>
+            <label id="termos" for="termos"><input type="checkbox" name="nome" value="aceito"> Li e Aceito</label>
+            <label id="termos" for="termos"><input type="checkbox" name="nome" value="novidades"> Quero receber novidades</label>
+        </fieldset>
+
+        <label for="comentarios">
+            <legend> Comentários </legend>
+            <textarea id="comentarios" name="nome" placeholder="Insira aqui outras considerações importantes"></textarea>
+        </label>
+
+        <button id="submit">Enviar</button>
+    </form>
+        
+    </main>
+
+</body>
+</html>

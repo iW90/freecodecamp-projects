@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+:root {
+--cor1: #fff;
+--botao: #090;
+}
+
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/32/Star-sprinkled_Mountains_%28Unsplash%29.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* HEADER CONFIGURATION */
+header {
+    box-sizing: border-box;
+    width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    color: var(--cor1);
+    text-shadow: 2px 3px 1px black;
+}
+
+#title {
+    margin: 0;
+    font-size: 4em;
+}
+
+#description {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* MAIN CONFIGURATION */
+main {
+    box-sizing: border-box;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(0, 0, 50, 75%);
+    border-radius: 15px;
+    padding: 50px;
+    text-align: left;
+    color: var(--cor1);
+    font-size: 1.7em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+button {
+    background: var(--botao);
+    color: var(--cor1);
+    font-size: 20px;
+    padding: 25px;
+    border: none;
+    border-radius: 1em;
+}
+
+#comentarios,
+#email,
+#name,
+#number,
+#dropdown {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border-radius: 1em;
+}
+
+#comentarios {
+    height: 250px;
+}
+
+#modelo,
+#termos {
+    display: block;
+    font-size: 0.8em;
+}
+
+fieldset {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
